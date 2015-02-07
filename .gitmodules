@@ -1,0 +1,3 @@
+[submodule "mac/.bash-git-prompt"]
+	path = mac/.bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt.git

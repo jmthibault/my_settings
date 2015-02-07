@@ -1,0 +1,8 @@
+[user]
+        name = Jean-Martin Thibault
+        email = jm@thibault-duguay.com
+[core]
+        autocrlf = true
+[alias]
+        lgas = log --graph --all --decorate --oneline
+        lgal = log --graph --all --pretty=format:'%C(auto)%h %d %s%n   %Cgreen%ae%C(5) (%ai)'
