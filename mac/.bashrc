@@ -89,7 +89,7 @@ User="\u"
 # *********
 # To use the following, you need to download the code
 # using the following command
-# -> curl -o ~/.git-prompt.sh https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
+# -> curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 source ~/.git-prompt.sh
 export PS1=$NewLine$Red'('$User') '$BGreen'{ '$PathFull' '$Yellow'$(__git_ps1 " (%s)")'$BGreen' }'$NewLine$Green'-> '$Color_Off
